@@ -1,10 +1,10 @@
-import React from 'react'
+import Image from "next/image"
 
 const Comments = () => {
   return (
         <div className='py-12'>
               <h2 className='text-center my-3 text-2xl md:text-3xl lg:text-4xl text-slate-800 md:font-semibold'>See what others have to say</h2>
-              <div className='flex justify-center'><img src="/Stars.svg" /><span className='font-semibold mx-1'>4.9</span>
+              <div className='flex justify-center'><Image src={"/Stars.svg"} alt={"stars"} /><span className='font-semibold mx-1'>4.9</span>
                     <span className='text-neutral-500'>Based on user reviews</span>
               </div>
               <div className='grid md:gap-x-8 md:grid-cols-3  py-4 grid-cols-2'>

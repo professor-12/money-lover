@@ -7,14 +7,14 @@ const Footer = () => {
                   <div className="bg-green-600 flex text-white p-12 md:py-0 md:pt-12 justify-between rounded-xl  md:px-32">
                         <div className="text-center lg:w-[50%]  md:text-left">
                               <h1 className="text-2xl lg:text-5xl">Take your finances to the next levels!</h1>
-                              <p className="my-2">Don't hesitate, money matters.</p>
+                              <p className="my-2">Don&apos;t hesitate, money matters.</p>
 
                               <div className="space-x-2 mt-12 md:static md:justify-start flex justify-center mx-auto">
                                     <Link href={"/"}>
-                                          <Image src={"/appstore.svg"} width={150} height={40}/>
+                                          <Image src={"/appstore.svg"} width={150} height={40}alt="googlePlay"/>
                                     </Link>
                                     <Link href={"/"}>
-                                          <Image src={"/google-play.svg"} width={150} height={80} />
+                                          <Image src={"/google-play.svg"} width={150} height={80} alt="googlePlay"/>
                                     </Link>
                               </div>
                         </div>
@@ -22,7 +22,7 @@ const Footer = () => {
                   </div>
 
                   <div className="mt-12 md:flex justify-between">
-                        <p className="text-zinc-700">© 2022 Finsify Technology Co., Ltd. All rights reserved.</p>
+                        <p className="text-zinc-700">2022 Finsify Technology Co., Ltd. All rights reserved.</p>
                         <ul className="text-zinc-600 md:space-y-0 md:mt-0 space-y-3 mt-5 md:flex md:space-x-7">
                               <li className="hover:text-blue-500 transition-colors"><Link href={"/"}>About us</Link></li>
                               <li className="hover:text-blue-500 transition-colors"><Link href={"/"}>Career</Link></li>
