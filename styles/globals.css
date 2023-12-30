@@ -2,26 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@300&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,500&family=Roboto:ital,wght@1,500&family=Sora:wght@400;700&family=Work+Sans:ital,wght@0,200;0,400;0,500;1,400&display=swap");
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@300&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,500&family=Roboto:ital,wght@1,500&family=Sora:wght@400;700&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap");
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+* {
+    font-family: "Inter", sans-serif;
+    font-family: "Arimo", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sora", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
